@@ -1,0 +1,8 @@
+###
+GET http://localhost:9000/api/cliente HTTP/1.1
+
+###
+GET http://localhost:9000/api/Cliente_porCorreo?email=juan.perez@gmail.com HTTP/1.1
+
+###
+GET http://localhost:9000/api/ExisteCliente_porCorreo?email=juan2.perez@gmail.com HTTP/1.1
